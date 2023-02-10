@@ -14,8 +14,18 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <div>we're coming soon</div>
-
+        <Image
+          src="/logo.png"
+          alt="LogSpi Logo"
+          className={styles.vercelLogo}
+          width={600}
+          height={255}
+          priority
+        />
+        <div className={styles.center}>
+         <h1 >we're coming soon</h1>
+         <hr />
+        </div>
         We're coming soon! We're working hard to give you the best experience!
       </main>
     </>
